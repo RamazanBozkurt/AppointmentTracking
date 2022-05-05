@@ -1,0 +1,11 @@
+C:\Users\ramaz\Desktop\OdevYeni\RandevuTakip\RandevuTakip.ENTITIES\bin\Debug\net5.0\RandevuTakip.ENTITIES.deps.json
+C:\Users\ramaz\Desktop\OdevYeni\RandevuTakip\RandevuTakip.ENTITIES\bin\Debug\net5.0\RandevuTakip.ENTITIES.dll
+C:\Users\ramaz\Desktop\OdevYeni\RandevuTakip\RandevuTakip.ENTITIES\bin\Debug\net5.0\ref\RandevuTakip.ENTITIES.dll
+C:\Users\ramaz\Desktop\OdevYeni\RandevuTakip\RandevuTakip.ENTITIES\bin\Debug\net5.0\RandevuTakip.ENTITIES.pdb
+C:\Users\ramaz\Desktop\OdevYeni\RandevuTakip\RandevuTakip.ENTITIES\obj\Debug\net5.0\RandevuTakip.ENTITIES.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ramaz\Desktop\OdevYeni\RandevuTakip\RandevuTakip.ENTITIES\obj\Debug\net5.0\RandevuTakip.ENTITIES.AssemblyInfoInputs.cache
+C:\Users\ramaz\Desktop\OdevYeni\RandevuTakip\RandevuTakip.ENTITIES\obj\Debug\net5.0\RandevuTakip.ENTITIES.AssemblyInfo.cs
+C:\Users\ramaz\Desktop\OdevYeni\RandevuTakip\RandevuTakip.ENTITIES\obj\Debug\net5.0\RandevuTakip.ENTITIES.csproj.CoreCompileInputs.cache
+C:\Users\ramaz\Desktop\OdevYeni\RandevuTakip\RandevuTakip.ENTITIES\obj\Debug\net5.0\RandevuTakip.ENTITIES.dll
+C:\Users\ramaz\Desktop\OdevYeni\RandevuTakip\RandevuTakip.ENTITIES\obj\Debug\net5.0\ref\RandevuTakip.ENTITIES.dll
+C:\Users\ramaz\Desktop\OdevYeni\RandevuTakip\RandevuTakip.ENTITIES\obj\Debug\net5.0\RandevuTakip.ENTITIES.pdb

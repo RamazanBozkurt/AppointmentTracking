@@ -1,0 +1,46 @@
+﻿@model List<RandevuTakip.ENTITIES.Appointment>
+
+@{
+    ViewData["Title"] = "ExpectedAppointments";
+}
+<head>
+    <title>Onay Bekleyen Randevular | Koru Sigorta</title>
+</head>
+<div class="container">
+    <h3 class="mb-5" style="color:orange">Onay Bekleyen Randevular</h3>
+
+    @if(@Model.Count <= 0)
+    {
+        <h2>Onay bekleyen randevu bulunmamaktadır.</h2>
+    }
+    else
+    {
+        
+    
+    <table class="table">
+  <thead>
+    <tr>
+      <th scope="col">Randevu Id</th>
+      <th scope="col">Ad</th>
+      <th scope="col">Soyad</th>
+      <th scope="col">Randevu Talep Tarihi</th>
+    </tr>
+  </thead>
+  <tbody>
+      @foreach (var item in Model)
+     {
+        <tr>
+          <th scope="row">@item.Id</th>
+          <td>@item.UserName</td>
+          <td>@item.UserSurname</td>
+          <td>@item.AppointmentDate</td>
+          <td><a class="btn btn-warning" asp-controller="Appointment" asp-action="Edit" asp-route-id=@item.Id>Detaya Git</a></td>
+        </tr>     
+     }
+  </tbody>
+  <br /><br /><br /> 
+</table>
+}
+
+<a asp-controller="Appointment" asp-action="Search" class="btn btn-primary mt-4 mb-4">Onaylanan Randevuları Göster</a>
+</div>

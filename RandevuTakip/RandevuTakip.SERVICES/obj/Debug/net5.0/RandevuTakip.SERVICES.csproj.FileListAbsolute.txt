@@ -1,0 +1,17 @@
+C:\Users\ramaz\Desktop\OdevYeni\RandevuTakip\RandevuTakip.SERVICES\bin\Debug\net5.0\RandevuTakip.SERVICES.deps.json
+C:\Users\ramaz\Desktop\OdevYeni\RandevuTakip\RandevuTakip.SERVICES\bin\Debug\net5.0\RandevuTakip.SERVICES.dll
+C:\Users\ramaz\Desktop\OdevYeni\RandevuTakip\RandevuTakip.SERVICES\bin\Debug\net5.0\ref\RandevuTakip.SERVICES.dll
+C:\Users\ramaz\Desktop\OdevYeni\RandevuTakip\RandevuTakip.SERVICES\bin\Debug\net5.0\RandevuTakip.SERVICES.pdb
+C:\Users\ramaz\Desktop\OdevYeni\RandevuTakip\RandevuTakip.SERVICES\bin\Debug\net5.0\RandevuTakip.DATA.dll
+C:\Users\ramaz\Desktop\OdevYeni\RandevuTakip\RandevuTakip.SERVICES\bin\Debug\net5.0\RandevuTakip.ENTITIES.dll
+C:\Users\ramaz\Desktop\OdevYeni\RandevuTakip\RandevuTakip.SERVICES\bin\Debug\net5.0\RandevuTakip.DATA.pdb
+C:\Users\ramaz\Desktop\OdevYeni\RandevuTakip\RandevuTakip.SERVICES\bin\Debug\net5.0\RandevuTakip.ENTITIES.pdb
+C:\Users\ramaz\Desktop\OdevYeni\RandevuTakip\RandevuTakip.SERVICES\obj\Debug\net5.0\RandevuTakip.SERVICES.csproj.AssemblyReference.cache
+C:\Users\ramaz\Desktop\OdevYeni\RandevuTakip\RandevuTakip.SERVICES\obj\Debug\net5.0\RandevuTakip.SERVICES.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ramaz\Desktop\OdevYeni\RandevuTakip\RandevuTakip.SERVICES\obj\Debug\net5.0\RandevuTakip.SERVICES.AssemblyInfoInputs.cache
+C:\Users\ramaz\Desktop\OdevYeni\RandevuTakip\RandevuTakip.SERVICES\obj\Debug\net5.0\RandevuTakip.SERVICES.AssemblyInfo.cs
+C:\Users\ramaz\Desktop\OdevYeni\RandevuTakip\RandevuTakip.SERVICES\obj\Debug\net5.0\RandevuTakip.SERVICES.csproj.CoreCompileInputs.cache
+C:\Users\ramaz\Desktop\OdevYeni\RandevuTakip\RandevuTakip.SERVICES\obj\Debug\net5.0\RandevuTakip.SERVICES.csproj.CopyComplete
+C:\Users\ramaz\Desktop\OdevYeni\RandevuTakip\RandevuTakip.SERVICES\obj\Debug\net5.0\RandevuTakip.SERVICES.dll
+C:\Users\ramaz\Desktop\OdevYeni\RandevuTakip\RandevuTakip.SERVICES\obj\Debug\net5.0\ref\RandevuTakip.SERVICES.dll
+C:\Users\ramaz\Desktop\OdevYeni\RandevuTakip\RandevuTakip.SERVICES\obj\Debug\net5.0\RandevuTakip.SERVICES.pdb

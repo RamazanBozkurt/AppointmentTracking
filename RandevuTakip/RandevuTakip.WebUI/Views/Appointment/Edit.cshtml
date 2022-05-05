@@ -1,0 +1,148 @@
+﻿@model RandevuTakip.ENTITIES.Appointment
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<head>
+    <title>Randevuları Düzenle | Koru Sigorta</title>
+</head>
+<!-- APPOINTMENT - START -->
+    <div style="background-color: #fff9f9">
+    <div class="container mt-5">
+        <h3 class="mb-5" style="color:orange">Randevu Düzenle</h3>
+        <form method="post" asp-controller="Appointment" asp-action="Edit">
+            <input asp-for="Id" hidden></input>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="mb-3">
+                        <div class="row">
+                            <div class="col-md-2">
+                                <label asp-for="UserName" class="form-label">Ad</label>
+                            </div>
+                            <div class="col-md-8">
+                                <input asp-for="UserName" type="text" class="form-control">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="mb-3">
+                        <div class="row">
+                            <div class="col-md-2">
+                                <label asp-for="UserSurname" class="form-label">Soyad</label>
+                            </div>
+                            <div class="col-md-8">
+                                <input asp-for="UserSurname" type="text" class="form-control">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="mb-3">
+                        <div class="row">
+                            <div class="col-md-2">
+                                <label asp-for="PolicyNumber" class="form-label">Poliçe No</label>
+                            </div>
+                            <div class="col-md-8">
+                                <input asp-for="PolicyNumber" type="text" class="form-control">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="mb-3">
+                        <div class="row">
+                            <div class="col-md-2">
+                                <label asp-for="IdentificationNumber" class="form-label">TC Kimlik Numarası</label>
+                            </div>
+                            <div class="col-md-8">
+                                <input asp-for="IdentificationNumber" type="text" class="form-control">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="mb-3">
+                        <div class="row">
+                            <div class="col-md-2">
+                                <label asp-for="PhoneNumber" class="form-label">Telefon No</label>
+                            </div>
+                            <div class="col-md-8">
+                                <input asp-for="PhoneNumber" type="phone" class="form-control">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="mb-3">
+                        <div class="row">
+                            <div class="col-md-2">
+                                <label asp-for="City" class="form-label">İl</label>
+                            </div>
+                            <div class="col-md-8">
+                                <input asp-for="City" type="text" class="form-control">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="mb-3">
+                        <div class="row">
+                            <div class="col-md-2">
+                                <label asp-for="District" class="form-label">İlçe</label>
+                            </div>
+                            <div class="col-md-8">
+                                <input asp-for="District" type="text" class="form-control">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="mb-3">
+                        <div class="row">
+                            <div class="col-md-2">
+                                <label asp-for="AppointmentDate" class="form-label">Randevu Tarihi</label>
+                            </div>
+                            <div class="col-md-8">
+                                <input asp-for="AppointmentDate" type="date" class="form-control">
+                                <span asp-validation-for="AppointmentDate" class="text-danger"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <button type="submit" class="btn btn-primary">Randevuyu Düzenle</button>
+                </div>
+                <div class="col-md-2">
+                    @if(@Model.IsApproved == false)
+                    {
+                        <a asp-controller="Appointment" asp-action="ExpectedAppointments" class="btn btn-primary ml-5">Geri</a>
+                    }
+                    else
+                    {
+                        <a asp-controller="Appointment" asp-action="Search" class="btn btn-primary ml-5">Geri</a>
+                    }
+                </div>
+            </div>
+          </form>
+    </div>
+</div>
+    <br><br><br>
+    <!-- APPOINTMENT - END -->
